@@ -1,12 +1,12 @@
-# 🎯 Bouncing Balls
+# Bouncing Balls
 
 Un gioco browser interattivo sviluppato con HTML5 Canvas, JavaScript vanilla e CSS. L'obiettivo è eliminare le palline rimbalzanti prima che il tempo scada o che raggiungano un numero critico.
 
-## 📋 Descrizione
+## Descrizione
 
 Bouncing Balls è un progetto scolastico realizzato nell'ambito del corso **4IA** presso **ITS LifeTech Academy – Trieste**. Il gioco sfrutta le API native del browser (Canvas 2D, eventi del mouse/touch) senza dipendenze esterne, dimostrando la padronanza dei concetti fondamentali di JavaScript: animazione con `requestAnimationFrame`, gestione degli eventi, logica di collisione e manipolazione del DOM.
 
-## 🎮 Come si gioca
+## Come si gioca
 
 1. Apri `index.html` nel browser
 2. Le palline compariranno sullo schermo e inizieranno a rimbalzare sui bordi
@@ -14,7 +14,7 @@ Bouncing Balls è un progetto scolastico realizzato nell'ambito del corso **4IA*
 4. Consulta la pagina **Help** per le istruzioni dettagliate
 5. Al termine della partita verrai reindirizzato alla pagina **End**
 
-## 🗂️ Struttura del progetto
+## Struttura del progetto
 
 ```
 4IABouncingBalls/
@@ -25,7 +25,7 @@ Bouncing Balls è un progetto scolastico realizzato nell'ambito del corso **4IA*
 └── style.css       # Stili e layout delle pagine
 ```
 
-## 🛠️ Tecnologie utilizzate
+## Tecnologie utilizzate
 
 | Tecnologia | Utilizzo |
 |---|---|
@@ -33,7 +33,7 @@ Bouncing Balls è un progetto scolastico realizzato nell'ambito del corso **4IA*
 | JavaScript (ES6+) | Logica di gioco, animazione, eventi |
 | CSS3 | Layout e stile delle pagine |
 
-## 🚀 Avvio
+## Avvio
 
 Non sono necessarie installazioni né dipendenze. Basta clonare la repository e aprire `index.html` direttamente nel browser:
 
@@ -45,8 +45,8 @@ cd 4IABouncingBalls
 
 In alternativa, puoi usare un'estensione come **Live Server** su VS Code per avviarlo su un server locale.
 
-## 👤 Autore
+## Autore
 
 **Mattia Battistella**  
-Studente ITS LifeTech Academy – Trieste  
+Durante la creazione di questo progetto --> Studente della 4IA al I.S.I.S. BEM Marconi (Staranzano)  
 [GitHub](https://github.com/BattistellaMattia)
