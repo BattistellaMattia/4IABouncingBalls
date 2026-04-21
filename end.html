@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <title>End</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="end-body">
+  <h1 id="result-message"> Game Over </h1>
+  <p id="game-stats"> </p>
+  <button id="button-end" onclick="goHome()"> HOME </button>
+
+  <script>
+    function getGameData() 
+    {
+      return {
+        result: localStorage.getItem("gameResult") === "true",
+        ballsInPlay: localStorage.getItem("ballsInPlay") || "unknown",
+        elapsedTime: localStorage.getItem("elapsedTime") || "0",
+        lastTime: localStorage.getItem("lastTime") || "0",
+        bestTime: localStorage.getItem("bestTime") || "0"
+      };
+    }
+
+    function displayGameStats() 
+    {
+      const gameData = getGameData();
+
+      if (gameData.result) 
+      {
+        document.getElementById("result-message").textContent = "Congratulations!";
+        elapsedTime = "Finish!";
+      } 
+      else 
+      {
+        document.getElementById("result-message").textContent = "You lose!";
+      }
+
+      document.getElementById("game-stats").innerHTML = 
+      `
+        <p>Balls left: ${gameData.ballsInPlay}</p>
+        <p>Elapsed time: ${gameData.elapsedTime} seconds</p>
+        <p>Last game time: ${gameData.lastTime} seconds</p>
+        <p>Best game time: ${gameData.bestTime} seconds</p>
+      `;
+    }
+
+    function goHome() 
+    {
+      // remove only the data of this exact game
+      localStorage.removeItem("gameResult");
+      localStorage.removeItem("ballsInPlay");
+      localStorage.removeItem("elapsedTime");
+
+      // back to the start screen
+      window.location.href = "index.html";
+    }
+
+    displayGameStats();
+  </script>
+</body>
+
+</html>

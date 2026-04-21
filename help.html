@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Program Help</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    #clear-results 
+    {
+      background-color: #d50404;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-family: "Arial", sans-serif;
+      border-radius: 8px;
+      margin: 3em;
+      cursor: pointer;
+    }
+
+    #close-button 
+    {
+      background-color: #e5d00f;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-family: "Arial", sans-serif;
+      border-radius: 8px;
+      margin: 2em;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body class="help-body">
+  <h1>How does the program work?</h1>
+  <p>The goal of the game is to move the evil ball using the arrow keys or WASD or with the movement of the mouse and eat all the balls as quickly as possible. <br><br>But you have to be careful of the good ball and the follower ball that will try to stop you!</p>
+
+  <button id="clear-results">CLEAR RESULTS</button>
+
+  <button id = "close-button">RETURN</button>
+
+  <script>
+    document.getElementById('clear-results').addEventListener('click', () => 
+    { 
+      localStorage.clear(); 
+      alert("Data deleted");
+    });
+
+    document.getElementById("close-button").addEventListener("click", function() {window.close();});
+  </script>
+
+</body>
+</html>

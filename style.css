@@ -1,0 +1,221 @@
+/* -------------------------------------------- */
+
+/* Style for the Player Name input section */
+#player-name-section 
+{
+  margin-top: 20px;
+}
+
+#player-name 
+{
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 200px;
+}
+
+#save-name-button 
+{
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* -------------------------------------------- */
+
+/* Style for the Player's Name display during the game */
+#player-name-display 
+{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  z-index: 10;
+}
+
+
+/* -------------------------------------------- */
+
+/* Style for HELP */
+.help-body {
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.help-body h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.help-body p {
+  font-size: 1.2rem;
+  width: 80%;
+  max-width: 600px;
+  line-height: 1.5;
+}
+/* -------------------------------------------- */
+
+/* Style for button HELP */
+.help-button 
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.help-button:hover 
+{
+  background-color: #ff704d;
+}
+
+/* -------------------------------------------- */
+
+/* Style for END */
+.end-body {
+  font-family: Arial, sans-serif;
+  background-color: #2b2b2b;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#result-message {
+  color: #cf1371;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#game-stats {
+  color: #d3d3d3;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#button-end {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#button-end:hover {
+  background-color: #45a049;
+}
+
+
+/* -------------------------------------------- */
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#start-screen 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#start-screen h1 
+{
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #45a049;
+}
+
+.buttons-container
+{
+  display: flex;
+  gap: 10px;
+}
+
+#start-screen button 
+{
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.info 
+{
+  position: absolute;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+.info p 
+{
+  margin: 10px 0;
+}
+
+.info h2
+{
+  color:rgb(209, 224, 68);
+  font-size: 2rem;
+}
+
+a 
+{
+  color: white;
+}
+
+#next-level 
+{
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#next-level:hover 
+{
+  background-color: #45a049;
+}
