@@ -25,7 +25,7 @@ Bouncing Balls è un progetto scolastico realizzato nell'ambito del corso **4IA*
 └── style.css       # Stili e layout delle pagine
 ```
 
-## Tecnologie utilizzate
+## Tecnologie utilizzate!
 
 | Tecnologia | Utilizzo |
 |---|---|
